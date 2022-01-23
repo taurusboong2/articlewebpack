@@ -24,6 +24,9 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    port: 4562,
+  },
   plugins: [
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({

@@ -1,3 +1,8 @@
+import './reset.css';
+import './article.css';
+import html from "./article.html";
+
+
 const url = new URL(window.location);
 const urlID = url.searchParams.get("id");
 
